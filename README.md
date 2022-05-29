@@ -5,7 +5,7 @@
 - Download or clone my Repository to your device
 - type `pip install -r requirements.txt` in command prompt(this will install required package for project)
 - Create a `TrainingImage` folder in a project folder.
-- open `attendance.py`,`automaticAttendance.py`,`takeImage.py`and `show_attendance.py` change all the path accoriding to your system
+- Open the python files and change all the path according to your system
 - Run `attandance.py` file
 
 ### Project flow & explaination
@@ -22,8 +22,11 @@
 
 ### Simple UI
 <img src = './Project%20Snap/1.PNG'>
+<img src = './Project%20Snap/2.PNG'>
+<img src = './Project%20Snap/3.PNG'>
+<img src = './Project%20Snap/4.PNG'>
 
 ## Attendance in tabular format 
-<img src='https://github.com/Dishi2003Jain/Attendance-System/blob/master/Project%20Snap/7.PNG'>
+<img src='./Project%20Snap/7.PNG'>
 
 

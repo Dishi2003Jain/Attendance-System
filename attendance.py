@@ -28,15 +28,15 @@ def text_to_speech(user_text):
     engine.runAndWait()
 
 
-haarcasecade_path = "C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\haarcascade_frontalface_default.xml"
+haarcasecade_path = "C:\\Users\\NICE\\Documents\\Attendance-System\\haarcascade_frontalface_default.xml"
 trainimagelabel_path = (
-    "C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\TrainingImageLabel\\Trainner.yml"
+    "C:\\Users\\NICE\\Documents\\Attendance-System\\TrainingImageLabel\\Trainner.yml"
 )
-trainimage_path = "C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\TrainingImage"
+trainimage_path = "C:\\Users\\NICE\\Documents\\Attendance-System\\TrainingImage"
 studentdetail_path = (
-    "C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\StudentDetails\\studentdetails.csv"
+    "C:\\Users\\NICE\\Documents\\Attendance-System\\StudentDetails\\studentdetails.csv"
 )
-attendance_path = "C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\Attendance"
+attendance_path = "C:\\Users\\NICE\\Documents\\Attendance-System\\Attendance"
 
 
 window = Tk()
@@ -64,7 +64,7 @@ def err_screen():
     tk.Label(
         sc1,
         text="Enrollment & Name required!!!",
-        fg="yellow",
+        fg="white",
         bg="black",
         font=("times", 20, " bold "),
     ).pack()
@@ -72,7 +72,7 @@ def err_screen():
         sc1,
         text="OK",
         command=del_sc1,
-        fg="yellow",
+        fg="white",
         bg="black",
         width=9,
         height=1,
@@ -96,16 +96,16 @@ titl.pack(fill=X)
 l1 = tk.Label(window, image=logo1, bg="black",)
 l1.place(x=470, y=10)
 
-titl = tk.Label(
-    window, text="Smart College!!", bg="black", fg="green", font=("arial", 27),
-)
+# titl = tk.Label(
+#     window, text="Smart College!!", bg="black", fg="green", font=("arial", 27),
+# )
 titl.place(x=525, y=12)
 
 a = tk.Label(
     window,
     text="Welcome to the Face Recognition Based\nAttendance Management System",
     bg="black",
-    fg="yellow",
+    fg="white",
     bd=10,
     font=("arial", 35),
 )
@@ -140,7 +140,7 @@ def TakeImageUI():
     titl.pack(fill=X)
     # image and title
     titl = tk.Label(
-        ImageUI, text="Register Your Face", bg="black", fg="green", font=("arial", 30),
+        ImageUI, text="Register Your Face", bg="black", fg="white", font=("arial", 30),
     )
     titl.place(x=270, y=12)
 
@@ -149,7 +149,7 @@ def TakeImageUI():
         ImageUI,
         text="Enter the details",
         bg="black",
-        fg="yellow",
+        fg="white",
         bd=10,
         font=("arial", 24),
     )
@@ -294,7 +294,7 @@ r = tk.Button(
     bd=10,
     font=("times new roman", 16),
     bg="black",
-    fg="yellow",
+    fg="white",
     height=2,
     width=17,
 )
@@ -312,7 +312,7 @@ r = tk.Button(
     bd=10,
     font=("times new roman", 16),
     bg="black",
-    fg="yellow",
+    fg="white",
     height=2,
     width=17,
 )
@@ -330,7 +330,7 @@ r = tk.Button(
     bd=10,
     font=("times new roman", 16),
     bg="black",
-    fg="yellow",
+    fg="white",
     height=2,
     width=17,
 )

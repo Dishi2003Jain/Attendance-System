@@ -32,7 +32,7 @@ def subjectchoose(text_to_speech):
         root = tkinter.Tk()
         root.title("Attendance of "+Subject)
         root.configure(background="black")
-        cs = f"C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\Attendance\\{Subject}\\attendance.csv"
+        cs = f"C:\\Users\\NICE\\Documents\\Attendance-System\\Attendance\\{Subject}\\attendance.csv"
         with open(cs) as file:
             reader = csv.reader(file)
             r = 0
@@ -72,9 +72,9 @@ def subjectchoose(text_to_speech):
     # l1.place(x=100, y=10)
     titl = tk.Label(
         subject,
-        text="Which Subject of Attendance?",
+        text="Attendance",
         bg="black",
-        fg="green",
+        fg="white",
         font=("arial", 25),
     )
     titl.place(x=100, y=12)
@@ -86,7 +86,7 @@ def subjectchoose(text_to_speech):
             text_to_speech(t)
         else:
             os.startfile(
-            f"C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\Attendance\\{sub}"
+            f"C:\\Users\\NICE\\Documents\\Attendance-System\\Attendance\\{sub}"
             )
 
 

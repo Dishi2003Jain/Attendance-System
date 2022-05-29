@@ -11,15 +11,15 @@ import time
 import tkinter.ttk as tkk
 import tkinter.font as font
 
-haarcasecade_path = "C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\haarcascade_frontalface_default.xml"
+haarcasecade_path = "C:\\Users\\NICE\\Documents\\Attendance-System\\haarcascade_frontalface_default.xml"
 trainimagelabel_path = (
-    "C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\TrainingImageLabel\\Trainner.yml"
+    "C:\\Users\\NICE\\Documents\\Attendance-System\\TrainingImageLabel\\Trainner.yml"
 )
-trainimage_path = "C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\TrainingImage"
+trainimage_path = "C:\\Users\\NICE\\Documents\\Attendance-System\\TrainingImage"
 studentdetail_path = (
-    "C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\StudentDetails\\studentdetails.csv"
+    "C:\\Users\\NICE\\Documents\\Attendance-System\\StudentDetails\\studentdetails.csv"
 )
-attendance_path = "C:\\Users\\NICE\\Documents\\Attendance-Management-system-using-face-recognition\\Attendance"
+attendance_path = "C:\\Users\\NICE\\Documents\\Attendance-System\\Attendance"
 # for choose subject and fill attendance
 def subjectChoose(text_to_speech):
     def FillAttendance():
@@ -203,7 +203,7 @@ def subjectChoose(text_to_speech):
         subject,
         text="Enter the Subject Name",
         bg="black",
-        fg="green",
+        fg="white",
         font=("arial", 25),
     )
     titl.place(x=160, y=12)
@@ -224,7 +224,7 @@ def subjectChoose(text_to_speech):
             text_to_speech(t)
         else:
             os.startfile(
-                f"C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\Attendance\\{sub}"
+                f"C:\\Users\\NICE\\Documents\\Attendance-System\\Attendance\\{sub}"
             )
 
     attf = tk.Button(
