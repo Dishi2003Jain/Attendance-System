@@ -27,6 +27,6 @@
 <img src = './Project%20Snap/4.PNG'>
 
 ## Attendance in tabular format 
-<img src='./Project%20Snap/7.PNG'>
+<img src='./Project%20Snap/5.PNG'>
 
 
