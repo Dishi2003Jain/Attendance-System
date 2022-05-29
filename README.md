@@ -21,9 +21,7 @@
 ### Screenshots
 
 ### Simple UI
-<img src='https://github.com/Dishi2003Jain/Attendance-System/blob/master/Project%20Snap/1.PNG'>
-
-
+<img src = './Project%20Snap/1.PNG'>
 
 ## Attendance in tabular format 
 <img src='https://github.com/Dishi2003Jain/Attendance-System/blob/master/Project%20Snap/7.PNG'>
